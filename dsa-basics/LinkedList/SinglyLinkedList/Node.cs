@@ -1,5 +1,8 @@
 ﻿namespace LinkedList.SinglyLinkedList
 {
+    /// <summary>
+    /// Node for singlyLikedList 
+    /// </summary>
     internal class Node
     {
         public int key;
