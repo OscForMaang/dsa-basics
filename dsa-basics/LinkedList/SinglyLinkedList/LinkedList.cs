@@ -312,7 +312,7 @@
 
             if(curr == null)
             {
-                Console.WriteLine($"You can insert upto {i} position");
+                Console.WriteLine($"You can insert up to {i} position");
                 return;
             }
 
