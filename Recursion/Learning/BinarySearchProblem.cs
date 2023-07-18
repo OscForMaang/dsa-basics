@@ -30,7 +30,7 @@
             }else if (key < arr[mid])
             {
                 // Whenever you are calling recursive methods, do as per method's return type
-                // For void : Just call the methoD and for any data type return, use the return the recursive call.
+                // For void : Just call the method and for any data type return, use the return the recursive call.
                 return BinarySearch(arr, start, mid-1, key);
             }
             else
