@@ -31,6 +31,7 @@
                 Console.WriteLine(curr.key + " ");
                 curr = curr.link;
             }
+            Console.WriteLine();
         }
 
         /// <summary>

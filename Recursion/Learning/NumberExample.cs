@@ -22,7 +22,7 @@
             Print(n + 1);
         }
 
-        
+
         // Function based solution
         //static void Print1(int num)
         //{
@@ -50,5 +50,10 @@
         //{
         //    Console.WriteLine(num);
         //}
+
+
+        // n-- vs --n
+        // n-- : pass the value first than subtract it
+        // --n : subtract first then pass the value
     }
 }
