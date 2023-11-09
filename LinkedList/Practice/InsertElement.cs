@@ -28,5 +28,25 @@ namespace LinkedList.Practice
 
             InsertAtIndex(node.link, value, index--);
         }
+
+        private Node InsertAtIndex(int val, int index, Node node)
+        {
+            if(val == 0)
+            {
+                Node newNode = new Node(val);
+                newNode.link = node;
+                return newNode;
+            }
+            node.link = InsertAtIndex(val, index - 1, node.link);
+            return node;
+        }
+
+        // Insert an element after a given node
+
+        public Node InsertAfter(Node node, int afterNode, int value)
+        {
+
+            return node;
+        }
     }
 }

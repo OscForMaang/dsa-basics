@@ -7,6 +7,11 @@
     {
         public int key;
         public Node link;
+
+        public Node()
+        {
+                
+        }
         public Node(int key)
         {
             this.key = key;

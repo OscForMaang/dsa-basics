@@ -67,5 +67,10 @@ namespace LinkedList.Practice
 
             return startOfMergedList;
         }
+
+        public Node MergeSortedLinkedList2(Node list1, Node list2)
+        {
+            return null;
+        }
     }
 }

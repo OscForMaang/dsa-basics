@@ -17,11 +17,11 @@ namespace LinkedList.Practice
             Node slow = head;
 
             while(fast != null && fast.link != null) { 
-                if(fast == slow) 
-                    return true; // cycle detected
-
+             
                 fast = fast.link.link; 
                 slow = slow.link;
+                if (fast == slow)
+                    return true; // cycle detected
             }
             return false;
         }

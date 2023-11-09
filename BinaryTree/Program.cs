@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using BinaryTree.Practice;
+
+BinaryTree.Practice.BinaryTree tree = new BinaryTree.Practice.BinaryTree();
+
+Node root = tree.CreateBinaryTree();
+tree.InOrderTraversal(root);
+
