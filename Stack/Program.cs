@@ -12,21 +12,26 @@
 
 // InBuild examples
 
-Stack<int> stack = new Stack<int>();
-stack.Push(0);
-stack.Push(1);
-stack.Push(2);
-stack.Push(3);
-stack.Push(4);
-stack.Push(5);
-int pop = stack.Pop(); // 5 will get popped
-Console.WriteLine(pop);
-Console.WriteLine(stack.Count); // size of the stack
-stack.Pop();
-stack.Pop();
-stack.Pop();
-stack.Pop();
-stack.Pop(); // all element are popped 
-stack.Pop(); // stack underflow, stack is empty
+using Stack.Practice;
 
-// pop and push happens with constant time complexity
+//Stack<int> stack = new Stack<int>();
+//stack.Push(0);
+//stack.Push(1);
+//stack.Push(2);
+//stack.Push(3);
+//stack.Push(4);
+//stack.Push(5);
+//int pop = stack.Pop(); // 5 will get popped
+//Console.WriteLine(pop);
+//Console.WriteLine(stack.Count); // size of the stack
+//stack.Pop();
+//stack.Pop();
+//stack.Pop();
+//stack.Pop();
+//stack.Pop(); // all element are popped 
+//stack.Pop(); // stack underflow, stack is empty
+
+//// pop and push happens with constant time complexity
+
+SimplyPathProblem problem = new SimplyPathProblem();
+Console.WriteLine(problem.SimplifyPath("/...../"));

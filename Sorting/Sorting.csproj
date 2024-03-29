@@ -8,9 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MergeSort\" />
-    <Folder Include="HeapSort\" />
-    <Folder Include="QuickSort\" />
+    <Compile Remove="HeapSort\**" />
+    <Compile Remove="MergeSort\**" />
+    <Compile Remove="QuickSort\**" />
+    <EmbeddedResource Remove="HeapSort\**" />
+    <EmbeddedResource Remove="MergeSort\**" />
+    <EmbeddedResource Remove="QuickSort\**" />
+    <None Remove="HeapSort\**" />
+    <None Remove="MergeSort\**" />
+    <None Remove="QuickSort\**" />
   </ItemGroup>
 
 </Project>

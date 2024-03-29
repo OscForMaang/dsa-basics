@@ -21,9 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{CDD62B6F-6512-4F16-A65B-E8FFAA815167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searching", "Searching\Searching.csproj", "{BDB8FEB5-A628-4472-9E9F-DC020CF94847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searching", "Searching\Searching.csproj", "{BDB8FEB5-A628-4472-9E9F-DC020CF94847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{54F521E7-9A14-4017-AECF-BD8BCDB6C86D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{54F521E7-9A14-4017-AECF-BD8BCDB6C86D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet", "HashSet\HashSet.csproj", "{C3D0322A-4C3A-4285-8670-D57EDB460C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode150", "LeetCode150\LeetCode150.csproj", "{A1F074BB-5073-4DC6-8035-E820EE057D84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringArray", "StringProblems\StringArray.csproj", "{CC14F321-427E-46A6-AB08-B7C9C8B649FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{54F521E7-9A14-4017-AECF-BD8BCDB6C86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F521E7-9A14-4017-AECF-BD8BCDB6C86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F521E7-9A14-4017-AECF-BD8BCDB6C86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D0322A-4C3A-4285-8670-D57EDB460C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D0322A-4C3A-4285-8670-D57EDB460C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D0322A-4C3A-4285-8670-D57EDB460C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D0322A-4C3A-4285-8670-D57EDB460C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F074BB-5073-4DC6-8035-E820EE057D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F074BB-5073-4DC6-8035-E820EE057D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F074BB-5073-4DC6-8035-E820EE057D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F074BB-5073-4DC6-8035-E820EE057D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC14F321-427E-46A6-AB08-B7C9C8B649FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC14F321-427E-46A6-AB08-B7C9C8B649FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC14F321-427E-46A6-AB08-B7C9C8B649FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC14F321-427E-46A6-AB08-B7C9C8B649FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

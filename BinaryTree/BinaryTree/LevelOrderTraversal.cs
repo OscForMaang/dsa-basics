@@ -39,6 +39,7 @@
         public void LevelOrderTraversalUsingQueue(Node root)
         {
             Queue<Node> queue = new Queue<Node>();
+            Console.WriteLine(queue.Count);
             queue.Enqueue(root);
             while(queue.Any())
             {

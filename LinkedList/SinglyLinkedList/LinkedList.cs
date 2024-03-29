@@ -414,7 +414,8 @@
 
             while(current != null)
             {
-                // TRY TO MEMORISE: STANDARD ALOGRITHM, IT'S DIFFICULT TO COMEUP WITH THIS ALGORITHM DURING INTERVIEW
+                // TRY TO MEMORISE: STANDARD ALOGRITHM,
+                // IT'S DIFFICULT TO COMEUP WITH THIS ALGORITHM DURING INTERVIEW
                 // TRICK IS N->C->P->C 
                 next = current.link;
                 current.link = prev;
